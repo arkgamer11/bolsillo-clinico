@@ -1,6 +1,6 @@
 /* Service worker de Bolsillo clínico: la app abre sin internet.
    Cambia VERSION cada vez que actualices index.html para que los celulares tomen la versión nueva. */
-var VERSION = "bolsillo-v15";
+var VERSION = "bolsillo-v16";
 var CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png"];
 
 self.addEventListener("install", function (e) {
